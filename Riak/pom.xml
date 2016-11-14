@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.sami</groupId>
+	<artifactId>app3</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>com.basho.riak</groupId>
+			<artifactId>riak-client</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.5.0</version>
+		</dependency>
+
+		<!-- <dependency> -->
+		<!-- <groupId>com.scalapenos</groupId> -->
+		<!-- <artifactId>riak-scala-client_2.10</artifactId> -->
+		<!-- <version>0.8.1.1</version> -->
+		<!-- </dependency> -->
+
+		<!-- ADDED FOR org.slf4j.impl.StaticLoggerBinder START -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.5.6</version>
+			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.5.6</version>
+		</dependency>
+		<!-- ADDED FOR org.slf4j.impl.StaticLoggerBinder END -->
+
+		<!-- ADDED FOR JSON PARSING -->
+			<dependency>
+				<groupId>org.json</groupId>
+				<artifactId>json</artifactId>
+				<version>20151123</version>
+			</dependency>
+
+
+		<dependency>
+			<groupId>com.basho.riak</groupId>
+			<artifactId>riak-client</artifactId>
+			<version>2.0.6</version>
+		</dependency>
+
+	</dependencies>
+</project>
